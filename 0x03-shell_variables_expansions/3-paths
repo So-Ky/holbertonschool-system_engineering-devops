@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -R -A | wc -w
+ls -R -A | wc --files0-from=PATH
