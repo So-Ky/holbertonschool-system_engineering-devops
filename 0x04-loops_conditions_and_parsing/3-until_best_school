@@ -1,6 +1,6 @@
 #!/bin/bash
 x=0
-until [$x == 5]
+until [$x == 10]
 do
     echo "Best School"
     ((x++))
