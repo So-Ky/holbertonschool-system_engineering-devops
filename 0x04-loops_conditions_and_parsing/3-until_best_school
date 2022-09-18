@@ -1,7 +1,7 @@
 #!/bin/bash
 x=0
-until [$x == 10]
+until [ $x == 10 ];
 do
     echo "Best School"
-    ((x++))
+    (( x++ ))
 done
