@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#This script loops 10 times printing "Best School", "bad luck" on the 4th and "good luck" on the 8th
+x=0
+while [ $x -lt 10 ]
+do
+	echo "Best School"
+	if [[ $x -eq 4 ]];
+	then
+	echo "bad luck"
+	fi
+	if [[ $x -eq 8 ]];
+	echo "good luck"
+	fi
+(( x++ ));
+done
